@@ -13,6 +13,7 @@ header{
     height: 15vh;
     background-color: #F9F9F9;
     display: flex;
+    box-shadow: 5px 5px 65px 5px black;
 }
 
 nav{
@@ -45,6 +46,9 @@ nav{
     border: none;
     outline: none;
     padding:  0px 30px;
+}
+.nav-desc-left button:hover{
+    font-size: 20px;
 }
 .input-to{
     background-color: rgb(215, 205, 205);
@@ -120,6 +124,10 @@ aside{
     justify-content:left;
     transition: all 0.6s;
 } 
+.sidebar-list-item:hover{
+    background-color: #109CF1;
+    color: black;
+}
 .sidebar-list-item .toggle{
     display: flex;
     opacity: 1;
@@ -136,6 +144,8 @@ aside{
     text-align: center;
     align-items: center;
     transition: all 0.6s;
+    height: 40px;
+    margin-left:-10px;
 }
 
 .sidebar .sidebar-list-item:hover{
